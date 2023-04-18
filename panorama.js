@@ -129,7 +129,7 @@ var Lobbies = {
         ServerIp: ServerIp,
         Active: -1,
         Token: null,
-        Modes: ["Rage", "Semi-Rage", "Legit"],
+        Modes: ["fffff", "Semi-ddddd", "aaaaa"],
         SendRegister: function () {
             if (this.Active == -1) return
             $.AsyncWebRequest(this.ServerIp + "/register", {
